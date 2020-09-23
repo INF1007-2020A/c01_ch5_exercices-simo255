@@ -11,7 +11,7 @@ Traceback (most recent call last):
   File "test_exercice.py", line 44, in <listcomp>
     output = [exercice.factorial(v) for v in values]
   File "/home/runner/work/c01_ch5_exercices-simo255/c01_ch5_exercices-simo255/exercice.py", line 23, in factorial
-    return math.factorial()
+    return math.factorial(number)
 NameError: name 'math' is not defined
 
 ======================================================================
