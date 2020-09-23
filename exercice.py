@@ -20,7 +20,7 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
+    return math.factorial()
 
 
 def use_continue() -> None:
