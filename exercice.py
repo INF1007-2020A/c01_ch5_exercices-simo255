@@ -5,17 +5,26 @@
 from typing import List
 
 
-def convert_to_absolute() -> float:
-    return 0.0
+def convert_to_absolute(n) -> float:
+    return abs(n)
 
 
 def use_prefixes() -> List[str]:
     prefixes, suffixes = 'JKLMNOP', 'ack'
-
-    return [""]
+    for n in prefixes:
+        return n + suffixes
 
 
 def prime_integer_summation() -> int:
+    for n in range(1,100):
+        k=0
+        while k*k < n:
+            if k%n ==0:
+                return false
+            k=k+1
+            print(k)
+                
+                   
     return 0
 
 
